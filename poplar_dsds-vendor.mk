@@ -374,8 +374,8 @@ PRODUCT_PACKAGES += \
     libdevice_security_vendor \
     libkeymasterutils \
     libprotobuf-c-idd \
-    libsensor1 \
-    libsensor_reg \
+    libsensor1_vendor \
+    libsensor_reg_vendor \
     libsns_low_lat_stream_stub \
     libsuntory \
     libthermal_engine \

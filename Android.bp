@@ -2430,7 +2430,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsensor1",
+	name: "libsensor1_vendor",
+	stem: "libsensor1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -2447,7 +2448,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsensor_reg",
+	name: "libsensor_reg_vendor",
+	stem: "libsensor_reg",
 	owner: "sony",
 	strip: {
 		none: true,
