@@ -4,8 +4,10 @@
 
 soong_namespace {
 	imports: [
-	],
-}
+		"vendor/sony/yoshino-common",
+		"hardware/qcom-caf/wlan",
+ 	],
+ }
 
 cc_prebuilt_library_shared {
 	name: "libqmi_cci_system",
