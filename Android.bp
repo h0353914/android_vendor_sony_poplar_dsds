@@ -4,7 +4,7 @@
 
 soong_namespace {
     imports: [
-        "vendor/sony/msm8998-common",
+        "vendor/sony/yoshino-common",
     ],
 }
 
